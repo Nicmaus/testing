@@ -1,0 +1,63 @@
+body {
+  background-color: #0e7490;
+  font-size: 18px;
+  color: #fb7185;
+}
+
+#container {
+  margin: 3em;
+  width: 400px;
+}
+
+p {
+  color: black;
+}
+
+span {
+  color: black;
+}
+
+.myClass {
+  display: flex;
+  justify-content: space-between;
+}
+.myClass li {
+  list-style: none;
+  background-color: #22d3ee;
+}
+.myClass:hover li {
+  background-color: black;
+}
+
+.nested {
+  background-color: #10b981;
+}
+.nested p {
+  color: white;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+}
+nav a {
+  text-decoration: none;
+}
+
+.example-1 {
+  font-size: 1rem;
+  transition-property: font-size;
+  transition-duration: 1s;
+  transition-delay: 2s;
+}
+.example-1:hover {
+  font-size: 2rem;
+}
+
+.lastClass {
+  border-bottom: 10px solid yellowgreen;
+}/*# sourceMappingURL=style.css.map */
